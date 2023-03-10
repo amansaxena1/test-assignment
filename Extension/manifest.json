@@ -1,0 +1,17 @@
+
+  {
+    "name": "Elitmus Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["*"],
+        "run_at": "document_idle",
+        "js":["content.js"]
+      }
+    ],
+    "action":{
+        "default_popup": "index.html"
+    }
+  }
+  

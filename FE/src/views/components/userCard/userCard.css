@@ -1,0 +1,27 @@
+.user-card-data-box{
+    border-radius: 10px;
+    overflow: hidden;
+    margin:10px;
+    box-shadow: 2px 2px 10px #000;
+    padding: 10px;
+}
+
+.user-card-data-img{
+    border-radius: 10px; 
+    width: 350px;
+    height: 350px;
+}
+
+.user-card-data-time-container{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+.user-card-data-time-text{
+    color:#fff;
+}
+
+.user-card-data-date-text{
+    color: #00ff00;
+}
